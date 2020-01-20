@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	min-width: 100%;
+	box-shadow: 0 3px 5px #fff;
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px 10px;
+
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	border-radius: 20px;
+	transition: border-bottom 0.3s;
+	padding: 10px 10px;
+
+}
+a:hover{
+	border-bottom: 2px solid #378c48;
+}
+body{
+	background: #000;
+	color: #fff;
+	font-family: 'IM Fell Great Primer SC', serif;
+}
+.modile{
+	display: none;
+}
+p{
+	padding: 5%;
+}
+h2{
+	text-align: center;
+}
+.wrap{
+	margin: 0 5%;
+}
+.nicola{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 60px;
+	background-image: url(img/maxresdefault.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.james{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 60px;
+	background-image: url(img/maxresdefault_1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.michael{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 60px;
+	background-image: url(img/maxresdefault_2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.andre-mari{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 60px;
+	background-image: url(img/maxresdefault.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.definition{
+	font-weight: bold;
+}
+.definition-block p{
+	padding: 20px 0;
+}
+.huinya {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	align-items: center;
+	justify-items: center;
+}
+.huinya img{
+	max-width: 50%;
+}
+
+
+
+@media screen and (max-width: 1060px) {
+	.desctop{
+	display: none;
+	}
+	.modile{
+	display: block;
+	}
+	.nicola{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	margin-top: 20px;
+	align-items: center;
+	justify-items: center;
+	}
+	.james{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+	}
+	.michael{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	margin-top: 20px;
+	align-items: center;
+	justify-items: center;
+	}
+	.andre-mari{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	margin-top: 20px;
+	align-items: center;
+	justify-items: center;
+	}
+	.huinya {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 20px;
+	align-items: center;
+	justify-items: center;
+	}
+}
